@@ -1,16 +1,16 @@
-//
-// Created by Yi-Ning MA on 2019-03-13.
-// Modifications: 
-// V2: by Ting Huang on 2020-05-28
-//	   1. improve the algorithm's performance 
-//	   2. update the niche operators
-// V3: by Ting Huang on 2020-09-14
-//     1. update the creation operator, including the method and the probability
-//	   2. update the deletion operator. 
-//	   3. modify the trait update.
-//    The final version of the draft on 2020-10-15
-// R1_V1: by Ting Huang on 2021-08-11
-//		1. introduce the effect of ocean currents
+/**
+*  Copyright (c) 2023 SCUT
+*  All rights reserved.
+*
+*  @author      Ting Huang 
+*  @date		2021-08-11
+*
+*  @brief       A multiple-trajectory planning algorithm for autonomous underwater vehicles.
+*
+*	@reference
+*		Y. -J. Gong, T. Huang, Y. -N. Ma, S. -W. Jeon and J. Zhang, "MTrajPlanner: A Multiple-Trajectory Planning Algorithm for Autonomous Underwater Vehicles," in IEEE Transactions on Intelligent Transportation Systems, vol. 24, no. 4, pp. 3714-3727, April 2023, doi: 10.1109/TITS.2023.3234937.
+*/
+
 
 #include<iostream>
 #include<algorithm>
